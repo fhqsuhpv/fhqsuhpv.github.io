@@ -1,14 +1,12 @@
 ---
 layout: page
 title: About
-description: 打码改变世界
-keywords: Zhuang Ma, 马壮
+description: 对编码这件事保持全然的觉知
+keywords: Zian Zhao, 赵梓安
 comments: true
 menu: 关于
 permalink: /about/
 ---
-
-我是马壮，码而生，码而立。
 
 仰慕「优雅编码的艺术」。
 
@@ -19,12 +17,9 @@ permalink: /about/
 
 ## 联系
 
-* GitHub：[@mzlogin](https://github.com/mzlogin)
-* LinkedIn：[@mazhuang](https://www.linkedin.com/in/mazhuang)
+* GitHub：[@fhqsuhpv](https://github.com/fhqsuhpv)
+* LinkedIn：[@fhqsuhpv](https://www.linkedin.com/in/zhaozian)
 * 博客：[{{ site.title }}]({{ site.url }})
-* 微博: [@mzlogin](http://weibo.com/mzlogin)
-* 知乎: [@mzlogin](http://www.zhihu.com/people/mzlogin)
-* 豆瓣: [@壮哥不胖](http://www.douban.com/people/freedim)
 
 ## Skill Keywords
 
