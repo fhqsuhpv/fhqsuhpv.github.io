@@ -11,13 +11,13 @@ keywords: 编码的禅, Zian Zhao, zhaozian
 favicon: /favicon.ico
 timezone: Asia/Shanghai
 encoding: "utf-8"
-source_code: https://github.com/mzlogin/mzlogin.github.io
+source_code: https://github.com/fhqsuhpv/fhqsuhpv.github.io
 side_bar_repo_limit: 5
 
 # ---------------- #
 #      Author      #
 # ---------------- #
-author: Zhuang Ma
+author: Zian Zhao
 organization: Sogou, Inc.
 organization_url: https://www.sogou.com
 location: Beijing, China
