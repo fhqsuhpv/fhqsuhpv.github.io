@@ -6,104 +6,54 @@ categories: IDEA
 description: 编码神器
 keywords: java,maven,IDE,IDEA
 ---
+## 基本快捷键
+#### 操作
 
-#快捷建
+| 快捷键             | 功能                        |
+| ----------------- | -------------------------- |
+| C-n/N             | 打开类/其他文件               |
+| C-w               | 选中单词（多次按扩大范围）      |
+| C-S-\<DEL>         | 跳到上次编辑点                |
+| C-d               | 复制行                      |
+| C-y               | 删除行                       |
+| M-S-上/下          | 换行                        |
+| S-\<RET>           | 向下起新行                   |
+| C-S-F12           | 最大化编辑窗口（切换）          |
 
-Alt + ENTER : 自动修正,提示
+#### 代码
 
-Alt + Insert	:	超级插入 新建等等
+| 快捷键             | 功能                        |
+| ----------------- | -------------------------- |
+| C-b               | 跳到定义处                   |
+| C-M-t             | 用if等语句包起来（需选中）      |
+| C-M-l             | 自动调整缩进                 |
+| C-]/[             | 跳到代码块结束/开始处          |
+| C-F12             | 当前文件结构                 |
 
-善用 Alt + 数字键 => 切换面板
+#### 文件
 
-Ctrl + H	:	类层次查看
-
-Ctrl + N	:	快速打开类 
-
-Ctrl + R	:	替换
-
-Ctrl + F	:	查找
-
-Ctrl + Q	:	查看JavaDoc
-
-Ctrl + W	:	特殊选中,像一个单词选择,连续按会有其他效果
-
-Ctrl + D	:	复制一行 或者 复制选中的代码块
-
-Ctrl + X	:	删除一行
-
-Ctrl + F12	:	可以显示当前文件的结构
-
-Ctrl + B	:	快速打开光标处的类或方法 
-
-Ctrl + Alt + B	:	跳转到抽象方法的实现 
-
-Ctrl + Alt + T	: 使用...包围代码块，例如if else。try/catch等等 
-
-Ctrl + O	:	覆写父类中的方法
-
-Ctrl + I	:	实现父类中的方法
-
-Ctrl + Alt + Shift + T	:	重构
-
-Ctrl + /或 + Shift+/	:	注释(// 或者/*...*/)
-
-Ctrl + [或]	:	跳到大括号的开头结尾
+| 快捷键             | 功能                        |
+| ----------------- | -------------------------- |
+| Shift双击          | 全局搜索                    |
+| C-N               | 搜索文件名                   |
 
 
-Ctrl + Shift + Up或Down	:	上下移动类,函数,变量 等等
+#### 窗口
 
-Ctrl + Shift + N	:	可以快速打开文件 
+| 快捷键             | 功能                        |
+| ----------------- | -------------------------- |
+| C-(S)-\<Tab>      | 窗口/打开文件间切换           |
+| +M                | 切换时按<Alt>键在左右转换      |
+| S-\<Esc>          | 关闭当前窗口                |
 
-Ctrl + Shift + F7	:	高亮显示所有该文本，按Esc高亮消失。
+#### 其他
 
-Ctrl + Shift + u	:	对当前单词大小写转换
+| 快捷键             | 功能                        |
+| ----------------- | -------------------------- |
+| C-q               | 语法提示                     |
+| C-/               | 注释（加Shift为块注释）        |
 
+## 插件
 
-Ctrl + Alt + L :	格式化代码 - 可以选择整个工程
-
-Ctrl + Alt + I	:	快速格式化代码 - 当前文档
-
-Ctrl + Alt + O	:	优化导入的类和包
-
-Ctrl + Alt + L/R	:	返回至上一次/下一次光标的位置
-
-Ctrl + Alt + F7	:	查看调用
-
-Shift + F6	:	重构-重命名
-
-F2	:	快速定位高亮错误或警告
-
-
-Alt + F1	:	可以将正在编辑的元素在各个面板中定位 
-
-Alt + F7	:	查找引用
-
-Alt + Up或Down	:	方法间快速移动
-
-Alt + Left或Right	:	左右页签切换
-
-
-Alt + Shift + C	:	对比最近修改的代码
-
-
-
-IDEA提供的一些缩写：
-
-psvm	:	public static void main(...)...
-
-sout	:	System.out.println();
-
-itit	:	while (iterator.hasNext()) { Object next = iterator.next(); }
-
-ifn	:	if == null
-
-inn	:	if != null
-
-thr	:	throw new
-
-
-其他：
-
-对List或者数组使用Alt+Enter => Iterate 快速生成迭代
-
-设置自动换行：setting -- > IDE Setting --> Editor -- >Virtual space，勾选：use soft wraps in editor
+#### IdeaVim
+进入Vim模式`C-M-v`
