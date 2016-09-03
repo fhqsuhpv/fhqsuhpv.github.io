@@ -6,7 +6,7 @@ description: Eclipse 常用快捷键和操作总结
 keywords: Eclipse
 ---
 
-### 快捷键
+### 快捷键(尽量去使用IDEA)
 
 C --> Ctrl
 
