@@ -1,4 +1,3 @@
-
 ---
 layout: wiki
 title: IDEA
