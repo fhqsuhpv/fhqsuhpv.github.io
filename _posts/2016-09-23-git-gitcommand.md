@@ -1,9 +1,8 @@
-
 ---
 layout: post
 title: git 常用命令
-categories: 应用
-description: git 命令使用集
+categories: Vim
+description: git 常用命令
 keywords: git
 ---
 
